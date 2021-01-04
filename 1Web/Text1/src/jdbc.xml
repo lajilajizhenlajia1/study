@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jdbc name="mysql">
+<username></username>
+<password></password>
+<jdbcurl>jdbc:mysql://localhost:3306/mysql</jdbcurl>
+</jdbc>
