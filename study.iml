@@ -8,4 +8,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
-</module>
+</module>// 抽奖人员名单
+const candidates = ['张三', '李四', '王五', '赵六', '钱七'];
+
+// 随机生成中奖号码
+const winningNumber = Math.floor(Math.random() * candidates.length);
+
+// 输出中奖者信息
+console.log(`恭喜 ${candidates[winningNumber]} 中奖！`);
